@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  <!---custom css link--->
+  <link rel="stylesheet"  href="styles.css">
+
+     <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Lato:wght@300&family=Poppins&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!--header-->
+  <header>
+    <h2 class="logo">Portfolio</h2>
+    <ul class="navbar">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#project">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </header>
+
+  <!--home-->
+  <section class="home" id="home">
+    <video id="back-video" autoplay loop muted poster="short videos/13820343_3840_2160_30fps.jpg" class="back-video">
+      <source src="short videos/13820343_3840_2160_30fps.mp4" type="video/mp4">
+    </video>
+    <div class="home-text">
+      <h4>Hello</h4>
+      <h1>I'm kayembe Jacques</h1>
+      <h3>Softeware Developer and Programming Enthusiast</h3>
+      <a href="" class="btn" target="_blank">Download Resume</a>
+    </div>
+  </section>
+
+  <!--about-->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="images/img1.jpg" alt="img">
+    </div>
+
+    <div class="about-text">
+      <h2>About Me</h2>
+      <h4>Hi, My name is Kayembe Jacques !!</h4>
+     <p>Fully committed to the philosophy of life-long learning, I'm a full stack developer with a deep passion for javascript, React and all things web development. The unique combination of creativity, logic, technology and never running out of new things to discover, drives my excitement and passion for web development. When I'm not at my computer I like to spend my time reading, keeping fit and playing guitar</p>
+
+     <a href="#contact" class="btn">Contact Me</a>
+    </div>
+  </section>
+
+  <!--Technical Language-->
+  <section class="skills" id="skills">
+    <div class="Tech_header">
+      <h1>Skills</h1>
+    </div>
+    <div class="Tcontainer">
+      <div class="skill-box">
+        <div class="skill-title">
+          <div class="tech_img">
+            <img class="skill-icon" src="dev-icons/c-plusplus.svg" alt="C Programming Language">
+          </div>
+          <h3>C</h3>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-title">
+          <div class="tech_img">
+            <img class="skill-icon" src="dev-icons/github-icon.svg" alt="C++ Programming Language">
+          </div>
+          <h3>Github</h3>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-title">
+          <div class="tech_img">
+            <img class="skill-icon" src="dev-icons/html-5.svg" alt="Html">
+          </div>
+          <h3>HTML</h3>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-title">
+          <div class="tech_img">
+            <img class="skill-icon" src="dev-icons/css-3.svg" alt="Css">
+          </div>
+          <h3>Css</h3>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-title">
+          <div class="tech_img">
+            <img class="skill-icon" src="dev-icons/javascript.svg" alt="javascript">
+          </div>
+          <h3>JavaScript</h3>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-title">
+          <div class="tech_img">
+            <img class="skill-icon" src="dev-icons/git-icon.svg" alt="git">
+          </div>
+          <h3>Git</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!--Portfolio-->
+  <section class="project" id="project">
+    <div class="main-text">
+      <h2>My Projects</h2>
+      <h4>Some of My Distinguished Works</h4>
+    </div>
+
+    <div class="portfolio-content">
+      <div class="row">
+        <div class="main-row">
+          <div class="row-text">
+            <h6>Todo-List App</h6>
+          </div>
+        </div>
+        <h3>A task management application build with html, css and javascript! Helps users organize and track their daily tasks</h3>
+
+        <iframe src="https://kazadijacques.github.io/Todo-List/" class="row-img"></iframe>
+        <div class="button-container">
+           <a href="https://github.com/Kazadijacques/Todo-List.git" class="button">Source Code</a>
+           <a href=" https://kazadijacques.github.io/Todo-List/" class="button">Live Demo</a>
+        </div>
+             
+      </div>
+
+      <div class="row">
+        <div class="main-row">
+          <div class="row-text">
+            <h6>Rock-Paper-Scissor</h6>
+          </div>
+        </div>
+        <h3>A classic game - build with html, css and javascript! Choose one of the three choices - and see if you can beat the computer.
+Will you win? The chance is random!</h3>
+
+        <iframe src=" https://kazadijacques.github.io/Rock-Paper-Scissors/" class="row-img"></iframe>
+        <div class="button-container">
+           <a href="https://github.com/Kazadijacques/Todo-List.git" class="button">Source Code</a>
+           <a href=" https://kazadijacques.github.io/Todo-List/" class="button">Live Demo</a>
+        </div>
+                          
+      </div>
+
+      <div class="row">
+        <div class="main-row">
+          <div class="row-text">
+            <h6>Form-validation</h6>
+          </div>
+        </div>
+        <h3>creating a web form and using JavaScript to check user input for accuracy and completeness before submission</h3>
+
+        <iframe src=" https://kazadijacques.github.io/Form-validation-project/" class="row-img"></iframe>
+        <div class="button-container">
+           <a href="https://github.com/Kazadijacques/Todo-List.git" class="button">Source Code</a>
+           <a href=" https://kazadijacques.github.io/Todo-List/" class="button">Live Demo</a>
+        </div>
+                                  
+      </div>
+
+    </div>
+  </section>
+
+  <!--Contact-->
+  <section class="contact" id="contact">
+    <div class="contact-text">
+      <h2>Contact Me</h2>
+      <h4>Let's work Together</h4>
+      <p>I will help you in your next project, contact me through details given below.</p>
+      <div class="contact-list">
+        <li><a href="#">Local Address</a></li>
+        <li><a href="mailto: kazadijacques100@gmail.com">kazadijacques100@gmail.com</a></li>
+        <li><a href="https://wa.me/27719149493">(+27) 71 914 94 93</a></li>
+        <a href="mailto: kazadijacques100@gmail.com"></a>
+          <button class="btn">
+            Let's Chat
+          </button>
+        </a>
+      </div>
+      <div class="contact-icons">
+        <a href="mailto: kazadijacques100@gmail.com" target="_blank"><i class='bx bxl-gmail'></i></a>
+        <a href="https://github.com/Kazadijacques" target="_blank"><i class='bx bxl-github'></i></a>
+        <a href="https://wa.me/27719149493" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!--scroll-top-->
+  <a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a>
+
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+
+  <!--custom js link-->
+  <script type="text/javascript" src="script.js"></script>
+
+  
+  
+  
+
+
+</body>
+</html>
