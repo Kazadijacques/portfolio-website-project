@@ -430,6 +430,26 @@ span {
     color: var(--text-color);
     background: var(--main-color);
   }
+  .last-text p{
+    text-align: center;
+    padding: 15px;
+    color: var(--second-color);
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.top{
+    position: fixed;
+    bottom: 2.1rem;
+    right: 2.1rem;
+}
+.top i{
+    color: var(--text-color);
+    background: var(--main-color);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 0.5rem;
+}
 
   @media (max-width: 1325px){
     header {
@@ -463,6 +483,7 @@ span {
     }
     .contact {
       grid-template-columns: 1fr;
+      
     }
     
   }
@@ -519,77 +540,7 @@ span {
     
   }
   /*
-  img {
-    height: 150px;
-    width: 150px;
-  }
-  .tech-skills h2 {
-    font-size: var(--h2-font);
-    text-align: center;
-  }
-  .skills {
-    box-sizing: border-box;
-  }
-
-  .diff-skills::after {
-    content: "";
-    display: table;
-    clear:both;
-  }
-
-  .skill-item {
-    float:left;
-    width:14.28%;
-    height:90%;
-    padding: 8px;
-  }
-*/
-  @media (max-width:660px) {
-    .skill-item img {
-      height: 90%;
-      width:90%;
-    }
-    .tech-skills h2 {
-      font-size: var(--h2-font);
-    }
-    
-  }
-
-  /*Technical skills css
-  * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto' sans-serif;
-  }
-
-  .inner {
-    padding-top: 20px;
-  }
-
-  .Tech_header {
-    text-align: center;
-    color: #fff;
-    padding: 1rem;
-    position: relative;
-  }
-
-  .Tech_header::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 4px;
-    width: 100px;
-    background-color: #eb4a4a;
-    border-radius: 2px;
-  }
-
-  .Tcontainer {
-    display: grid;
-
-  }
+ 
 */
 
   
